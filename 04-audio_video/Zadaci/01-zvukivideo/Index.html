@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedija</title>
+  </head>
+  <body>
+    <h1>Mutltimedijski sadržaj u HTML</h1>
+    <p>na WEB stranicama uz i vrlo često...</p>
+    <p>HTML 5 omogćava ...</p>
+    <h2>Audio</h2>
+    <p>Za korištenje na webu...</p>
+    <p>Podržani formati su:</p>
+    <ul>
+      <li>mp3</li>
+      <li>wav</li>
+      <li>ogg</li>
+    </ul>
+    <br />
+    <audio src="../../../multimedia/audio/in3s.mp3"
+    controls  
+    loop
+    muted
+    preload="metadata""></audio>
+    <!-- mozes i ovako tu navodiš više tipova ako brow. ne podržava-->
+    <audio controls>
+        <source src="../../multimedia/audio/in3s.mp3" type="audio/mpeg" />
+  
+        <source src="../../multimedia/audio/in3s.mp3" type="audio/ogg" />
+    </audio>
+    <h2>Video</h2>
+    <p>Za korištenje na webu...</p>
+    <p>Podržani formati su:</p>
+    <ul>
+      <li>mp4</li>
+      <li>webM</li>
+      <li>ogg</li>
+    </ul>
+    <video
+    src="../../../multimedia/video/mountains.mp4"
+    controls    
+    width="320"
+    height="240"
+    muted
+    preload="metadata"
+  ></video>
+  </body>
+</html>

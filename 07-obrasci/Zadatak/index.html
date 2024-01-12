@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadatak obrasci</title>
+  </head>
+  <body>
+    <form method="GET" enctype="application/x-www-form-urlencoded">
+      <div>
+        <label for="ime i prezime">Ime i prezime</label> <br />
+        <input
+          id="ime i prezime"
+          name="osobni podaci"
+          placeholder="Vase ime i prezime"
+          type="text" />
+      </div>
+      <div>
+        <label for="E-mail">E-mail adress</label> <br />
+        <input
+          id="E-mail"
+          name="mail adress"
+          placeholder="Upisite valjanu e-mail adresu"
+          type="email" />
+      </div>
+      <div>
+        <label for="tel">Kontakt broj telefona</label> <br />
+        <input id="tel" name="phone number" type="tel" />
+      </div>
+      <div>
+        <label for="date of birth">Datum rođenja</label> <br />
+        <input
+          id="date of birth"
+          name="birth date"
+          placeholder="date"
+          type="date" />
+      </div>
+      <div>
+        <label for="lang">Koje jezike govorite?</label> <br />
+        <label for="lang">Engleski</label>
+        <input id="lang" name="languages" type="checkbox" />
+        <label for="lang">Njemacki</label>
+        <input id="lang" name="languages" type="checkbox" />
+        <label for="lang">Talijanski</label>
+        <input id="lang" name="languages" type="checkbox" />
+        <label for="lang">Francuski</label>
+        <input id="lang" name="languages" type="checkbox" />
+        <label for="lang">Spanjolski</label>
+        <input id="lang" name="languages" type="checkbox" />
+      </div>
+      <div>
+        <label for="Q&A">Da li ste do sada koristili usluge nase tvrtke?</label>
+        <br />
+        <input type="radio" id="da" name="odg1" />
+        <label for="odg1">Da</label>
+        <input type="radio" id="ne" name="odg2" />
+        <label for="odg2">Ne</label>
+      </div>
+      <div>
+        <label for="CVV">Prilozite zivotopis</label> <br />
+        <input id="CVV" name="VCC" type="file" />
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Prijavi se" />
+        <input type="reset" value="Poništi" />
+      </div>
+    </form>
+  </body>
+</html>
