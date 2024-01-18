@@ -3,7 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Turistička agencija Avanturist</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Turistička agencija Avanturist</h1>
+      <nav>
+        <ul>
+          <li><a href="#p1">O nama</a></li>
+          <li><a href="#p2">Naše djelatnosti</a></li>
+          <li><a href="#p3">Kontakt</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <section>
+        <h1>Turistička agencija Avanturist</h1>
+        <h2 id="p1">O nama</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          corrupti earum, non fuga rerum quos consequatur fugit ipsam
+          consequuntur odio. Repellendus porro earum cupiditate. Nesciunt rerum
+          cumque sequi nisi amet.
+        </p>
+        <img
+          src="../multimedia/images/ljudi/grupe-ljudi/team.jpg"
+          alt="O nama"
+          width="800"
+          height="500" />
+      </section>
+
+      <section>
+        <h2 id="p2">Naše djelatnosti</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          corrupti earum, non fuga rerum quos consequatur fugit ipsam
+          consequuntur odio. Repellendus porro earum cupiditate. Nesciunt rerum
+          cumque sequi nisi amet.
+        </p>
+
+        <img
+          src="../multimedia/images/stvari/adventure.jpg"
+          alt="Naše djelatnosti"
+          width="800"
+          height="500" />
+      </section>
+
+      <section>
+        <h2 id="p3">Kontakt</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          corrupti earum, non fuga rerum quos consequatur fugit ipsam
+          consequuntur odio. Repellendus porro earum cupiditate. Nesciunt rerum
+          cumque sequi nisi amet.
+        </p>
+      </section>
+
+      <form name="kontakt_form" action="" method="post">
+        <p>
+          <label for="name">Ime i prezime:</label>
+          <input
+            type="text"
+            name="ime"
+            id="name"
+            required
+            placeholder="Ime i prezime" />
+        </p>
+        <p>
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Vaš e-mail" />
+        </p>
+
+        <p>
+          <label for="poruka">Poruka:</label><br />
+          <textarea name="poruka" id="poruka" cols="30" rows="5"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Pošalji poruku" />
+        </p>
+      </form>
+    </main>
+    <footer>
+      <hr />
+      <p><i>Avanturist &#169; 2019 </i></p>
+      <p>
+        <a href="mailto:kovacic.dalibor@gmail.com"
+          ><img
+            src="../09-zadatak/dodaci/logo/email.svg"
+            alt="slika3"
+            width="64"
+            height="64"
+        /></a>
+        <br />
+      </p>
+    </footer>
+  </body>
 </html>
